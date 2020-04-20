@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/91MrZhang/docs/issues"
   },
-  "homepage": "https://github.com/91MrZhang/docs#readme"
+  "homepage": "https://github.com/91MrZhang/docs#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }

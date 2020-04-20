@@ -1,8 +1,12 @@
 ---
-sidebar: auto
+home: true
+heroImage: '/assets/img/logo.png'
+heroText: 个人笔记
+tagline: 工作中的踩过的各种坑
+actionText: 进入笔记 →
+actionLink: /os/centos/
+footer: MIT Licensed | Copyright © 2017-2020 91MrZhang
 ---
-# 张宇庭到此一游
-## 二级标题1
-### 三级标题3
-## 二级标题2
-# 一级标题2
+:clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap::clap:
+
+<div align=center><img width = '300' height ='300' src ="/assets/img/wc-qrcode.png"/></div>

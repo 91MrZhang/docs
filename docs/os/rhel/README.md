@@ -2,13 +2,11 @@
 sidebar: auto
 sidebarDepth: 1
 ---
-# CentOS6
+# RedHat6
 ## 前言
 
 ::: warning
-这里写的不是Linux基础教程哈，
-
-主要记录一些实用的，简单的，但是百度上一搜，搜半天达不到自己预期效果的那种命令
+为了撑场面，原封不动的抄了一份CentOS6的，没啥区别
 :::
 
 ::: danger
@@ -193,37 +191,3 @@ netstat -anp |grep 61616
 ``` bash
 netstat -anp |grep 8080 | wc -l
 ```
-
-## 系统配置
-### 本地解析
-``` bash
-vi /etc/hosts
-```
-![An image](./c006.png)
-一般内网环境，允许上网，但是DNS都多多少少有点瑕疵，需要手动解析
-
-集群模式的话，服务器之间互相通信，代码里也最好使用主机名，而不使用IP，这样切换主机很方便
-
-如果在代码中，各个配置都写死了IP，那很不好管理
-### 开机启动
-``` bash
-vi /etc/rc.local
-```
-![An image](./c007.png)
-
-这个也经常用，一般用在开机挂NAS存储，启动业务服务配置等
-### 定时任务
-``` bash
-crontab -e
-```
-![An image](./c008.png)
-
-注意：linux下每个用户都有一个crontab，要注意crontab设定在对应的用户下，不要统一设到root中
-crontab表达式，自行去网上搜索即可
-### 网络配置
-
-### 改yum源
-### 最大线程
-## 常用脚本
-### 自动备份
-### 定时检测
