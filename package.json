@@ -25,5 +25,8 @@
   "homepage": "https://github.com/91MrZhang/docs#readme",
   "dependencies": {
     "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "vuepress": "^1.4.1"
   }
 }
