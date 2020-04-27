@@ -5,34 +5,17 @@ module.exports = [
       ariaLabel: 'CODE Menu',
       items: [
         {
-<<<<<<< HEAD
           text: '系统',
           items: [
             { text: 'CentOS', link: '/linux/' },
             { text: 'Windows Server', link: '/os/winserver3/' }
           ]
-=======
-          text: 'Linux',
-          items: [
-            { text: 'CentOS/RHEL', link: '/os/centos/' }
-          ],
-        },
-        {
-          text: 'Windows',
-          items: [
-            { text: 'Windows Server', link: '/os/winserver1/' }
-          ],
->>>>>>> 3ec1334b1bd292c54f9b607bf81db5efdbbb45c5
         },
         {
           text: 'Code',
           items: [
             { text: 'Java', link: '/os/winserver2/' },
-<<<<<<< HEAD
             { text: 'Python', link: '/os/winserver33/' },
-=======
-            { text: 'Python', link: '/os/winserver3/' },
->>>>>>> 3ec1334b1bd292c54f9b607bf81db5efdbbb45c5
             { text: 'Html', link: '/os/winserver4/' }
           ]
         },
@@ -56,7 +39,6 @@ module.exports = [
       ],
     },
     {
-<<<<<<< HEAD
       text: '项目', items: [
         { text: 'Blackboard', link: '/os/winserver11/' },
         { text: '微信', link: '/os/winserver12/' },
@@ -70,13 +52,4 @@ module.exports = [
       ]
     }
   ]
-=======
-      text: '奇淫巧技', items: [
-        { text: '开发工具', link: '/os/winserver11/' },
-        { text: '工作常用', link: '/os/winserver12/' },
-      ]
-    },
-    { text: 'GitHub', link: 'https://github.com/91MrZhang' },
-];
->>>>>>> 3ec1334b1bd292c54f9b607bf81db5efdbbb45c5
 
