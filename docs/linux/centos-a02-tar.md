@@ -1,6 +1,7 @@
 ---
-title: 打包解包
+title: tar
 ---
+### tar
 #### 打包
 把mubiao这个文件夹，打包成mubiao.tar
 ``` bash

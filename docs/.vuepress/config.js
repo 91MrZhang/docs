@@ -6,11 +6,7 @@ module.exports = {
   title: '91张先生',
   description: '到此一游',
   head: headconf,
-<<<<<<< HEAD
   plugins: pluginsconf,
-=======
- // plugins: pluginsconf,
->>>>>>> 3ec1334b1bd292c54f9b607bf81db5efdbbb45c5
   themeConfig: {
     logo: '/assets/img/logo.png',
     lastUpdated: '上次更新',

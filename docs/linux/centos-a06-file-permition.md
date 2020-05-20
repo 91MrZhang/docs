@@ -1,7 +1,7 @@
 ---
 title: 权限管理
 ---
-
+### 权限管理
 #### chown更改所有权
 ``` bash
 chown -R runoob:runoobgroup *

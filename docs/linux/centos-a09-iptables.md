@@ -1,8 +1,8 @@
 ---
 title: 防火墙
 ---
-
-#### 看看状态
+### 防火墙
+#### 状态
 ``` bash
 service iptables status
 ```
