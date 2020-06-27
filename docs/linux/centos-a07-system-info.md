@@ -1,5 +1,5 @@
 ---
-title: 系统信息
+title: systeminfo
 ---
 ### 系统信息
 ::: tip

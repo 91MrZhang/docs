@@ -1,5 +1,5 @@
 ---
-title: 权限管理
+title: chown、chmod
 ---
 ### 权限管理
 #### chown更改所有权

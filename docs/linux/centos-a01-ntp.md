@@ -1,9 +1,9 @@
 ---
-title: 时间校准
+title: ntp、date
 autoPrev: README
 ---
 ### 时间校准
-单点登录、加解密经常由于服务器时间不准出问题
+单点登录、API在加密解密的时候，经常由于服务器时间不准出问题
 
 ``` bash
 ntpdate us.pool.ntp.org

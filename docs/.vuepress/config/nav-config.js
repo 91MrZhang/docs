@@ -8,24 +8,22 @@ module.exports = [
           text: '系统',
           items: [
             { text: 'CentOS', link: '/linux/' },
-            { text: 'Windows Server', link: '/os/winserver3/' }
+            { text: 'Windows Server', link: '/win' }
           ]
         },
         {
           text: 'Code',
           items: [
-            { text: 'Java', link: '/os/winserver2/' },
-            { text: 'Python', link: '/os/winserver33/' },
-            { text: 'Html', link: '/os/winserver4/' }
+            { text: 'JAVA', link: '/os/winserver2/' },
+            { text: 'HTML', link: '/os/winserver33/' },
+            { text: 'SQL', link: '/os/winserver4/' }
           ]
         },
         {
           text: '数据库',
           items: [
             { text: 'Oracle', link: '/os/winserver5/' },
-            { text: 'SQLServer', link: '/os/winserver6/' },
-            { text: 'Mysql', link: '/os/winserver7/' },
-            { text: 'Redis', link: '/os/winserver8/' },
+            { text: 'SQLServer', link: '/os/winserver6/' }
 
           ]
         },
@@ -41,14 +39,13 @@ module.exports = [
     {
       text: '项目', items: [
         { text: 'Blackboard', link: '/os/winserver11/' },
-        { text: '微信', link: '/os/winserver12/' },
+        { text: 'WeChat', link: '/os/winserver12/' },
       ]
     },
     {
-      text: '奇淫巧技', items: [
-        { text: '开发工具', link: '/os/winserver112/' },
+      text: '其他', items: [
         { text: '开发素材', link: '/os/winserver122/' },
-        { text: '骚操作', link: '/os/winserver123/' },
+        { text: '奇淫巧技', link: '/os/winserver123/' },
       ]
     }
   ]

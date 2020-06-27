@@ -1,8 +1,8 @@
 ---
-title: 软连接
+title: ln
 ---
 ### 软连接
-::: tip
+::: tip 软连接
 软连接我觉得是一个比较妙的命令，windows的快捷方式就不如它的效果好
 
 例如有的时候程序中写死了文件夹存储的路径，
@@ -95,7 +95,7 @@ drwxr-xr-x 2 root root 4096 Apr 28 23:18 sourcefolderchild
 [root@xxxxx test1]# 
 ```
 
-::: danger
+::: danger 注意
 软连接不要轻易删除，如果在生产平台上更要慎重！！！
 
 区别就是 rm -rf xx 和 rm -rf xx/

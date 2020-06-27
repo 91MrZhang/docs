@@ -1,5 +1,5 @@
 ---
-title: 结束进程
+title: kill
 ---
 ### 结束进程
 ``` bash

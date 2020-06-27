@@ -2,6 +2,9 @@
 title: tar
 ---
 ### tar
+::: tip tar
+打包这个命令，总是复制粘贴，始终记不牢
+:::
 #### 打包
 把mubiao这个文件夹，打包成mubiao.tar
 ``` bash
