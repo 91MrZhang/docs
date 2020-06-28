@@ -12,10 +12,9 @@ autoPrev: README
     <li><a href="/guide/discussion-board">操作系统</a>
       <ul>
         <li><a href="/linux">Linux基础</a></li>
-        <li><a href="/linux/centos-b01-rclocal.html">Linux系统配置</a></li>
-        <li><a href="/linux/centos-b03-rsync.html">Linux常用脚本</a></li>
-        <li><a href="#sub-heading-2">WindowsServer常规</a></li>
-        <li><a href="#sub-heading-2">WindowsServer AD域</a></li>
+        <li><a href="/linux/centos-b01-rclocal.html">Linux 系统配置</a></li>
+        <li><a href="/linux/centos-b03-rsync.html">Linux 常用脚本</a></li>
+        <li><a href="/404">Windows Server 基础</a></li>
       </ul>
     </li>
   </ul>
@@ -24,7 +23,7 @@ autoPrev: README
       <ul>
         <li><a href="#sub-heading-1">HTML</a></li>
         <li><a href="#sub-heading-1">JAVA</a></li>
-        <li><a href="#sub-heading-1">SQL</a></li>
+        <li><a href="/sql">SQL</a></li>
         <li><a href="#sub-heading-1">OTHER</a></li>
       </ul>
     </li>
@@ -33,7 +32,7 @@ autoPrev: README
     <li><a href="/guide/discussion-board">数据库</a>
       <ul>
         <li><a href="#sub-heading-1">Oracle</a></li>
-        <li><a href="#sub-heading-1">SqlServer</a></li>
+        <li><a href="#sub-heading-1">Sql Server</a></li>
       </ul>
     </li>
   </ul>
