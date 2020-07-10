@@ -7,22 +7,23 @@ module.exports = [
       {
         text: '服务器',
         items: [
-          { text: 'Linux', link: '/linux/' }
+          { text: 'Linux', link: '/Linux/' }
         ]
       },
       {
-        text: 'Code',
+        text: 'Java',
         items: [
-          { text: 'Java', link: '/java/' },
-          { text: 'HTML', link: '/html/' }
+          { text: 'Java基础', link: '/Java基础/' },
+          { text: 'Tomcat', link: '/Tomcat/' },
+          { text: 'Spring', link: '/Spring/' }
         ]
       },
       {
         text: '数据库',
         items: [
-          { text: 'Oracle', link: '/oracle/' },
-          { text: 'Mysql', link: '/mysql/' },
-          { text: 'Sql Server', link: '/mssql/' }
+          { text: 'Oracle', link: '/Oracle/' },
+          { text: 'MySQL', link: '/MySQL/' },
+          { text: 'SQL Server', link: '/SQLServer/' }
 
         ]
       },
@@ -30,7 +31,7 @@ module.exports = [
       {
         text: '其他',
         items: [
-          { text: 'Nginx', link: '/nginx/' }
+          { text: 'Nginx', link: '/Nginx/' }
         ]
       },
     ],
@@ -40,11 +41,11 @@ module.exports = [
   {
     text: '云平台',
     items: [
-      { text: '阿里云', link: '/aliyun/' },
-      { text: '华为云', link: '/huaweiyun/' },
+      { text: '阿里云', link: '/阿里云/' },
+      { text: '华为云', link: '/华为云/' },
     ]
   },
-  { text: '奇淫巧技', link: '/qyqj/' },
-  { text: 'Blackboard', link: '/blackboard/' }
+  { text: '奇淫巧技', link: '/奇淫巧技/' },
+  { text: 'Blackboard', link: '/Blackboard/' }
 ]
 

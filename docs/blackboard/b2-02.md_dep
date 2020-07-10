@@ -1,0 +1,15 @@
+---
+title: 开发原则
+autoGroup-1: BuildingBlock
+---
+### 尽量少的JDBC
+1. 不推荐在BuildingBlock中直接进行数据库的QUERY操作，随着Blackboard版本更新，DB结构难免会多多少少有变化
+2. 禁止通过SQL操作Blackboard的原生数据，因为业务表繁多，关联关系复杂，可能觉得新建一个用户直接insert into users就行，而实际上前前后后更新远没想象的简单，当然你自己建的表是可以随意的CRUD的
+
+### 日志的粒度
+1. 我们要求在生产平台上必须使用INFO级别的日志，过多的DEBUG日志会影响平台的正常维护
+2. 涉及到删改数据的操作时，务必要增加操作者的操作日志 
+
+### 注明DataSource
+1. 通过API插入数据时，记得在DataSource字段标注数据来源，这样方便管理，可以随时擦除或禁用
+2. 如果是阶段性数据，创建DataSource时要注明日期
