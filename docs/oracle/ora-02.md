@@ -19,11 +19,10 @@ select to_char(scn_to_timestamp(ORA_ROWSCN),'yyyy-mm-dd hh24:mi:ss:ff8') update_
 如果全表查询不加条件，查到5天以外的数据，会报下面这个错误
 
 :::
-
 ``` sql
 ORA-08181: 指定的编号不是有效的系统更改号
 ORA-06512: 在 "SYS.SCN_TO_TIMESTAMP", line 1
 08181. 00000 -  "specified number is not a valid system change number"
 *Cause:    supplied scn was beyond the bounds of a valid scn.
-*Action:   use a valid scn.
+*Action:   use a valid scn. 
 ```
